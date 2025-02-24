@@ -45,7 +45,7 @@ WD = 1e-5
 BS = 8
 TEMP = 0.01
 
-PATH_HARD_NEGATIVES = None
+PATH_HARD_NEGATIVES = None # TODO add path to hard negatives, otherwise in-batch negatives are used
 HARD_NAME = ""
 if PATH_HARD_NEGATIVES is not None:
     HARD_NAME = "_hard"

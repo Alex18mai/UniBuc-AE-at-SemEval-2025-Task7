@@ -8,30 +8,27 @@ from tqdm import tqdm
 VAL_PAIRS = "data/data_parsed/pairs_val.csv"
 
 VAL_SUBMISSIONS_PATHS = [
-    # "BEST/e5-large-v2/submission_val_checkpoint_e5-large-v2_epoch=5_acc=91.61_epoch=0_acc=91.61.json",
-    # "BEST/multilingual-e5-large-instruct/submission_val_checkpoint_multilingual-e5-large-instruct_epoch=5_acc=92.09_epoch=0_acc=92.09.json",
+    "BEST/e5-large-v2/submission_val_checkpoint_e5-large-v2_epoch=5_acc=91.61_epoch=0_acc=91.61.json",
+    "BEST/multilingual-e5-large-instruct/submission_val_checkpoint_multilingual-e5-large-instruct_epoch=5_acc=92.09_epoch=0_acc=92.09.json",
     "BEST/e5-large-v2_hard/submission_val_e5-large-v2_epoch=3_acc=95.66.json",
     "BEST/multilingual-e5-large-instruct_hard/submission_val_multilingual-e5-large-instruct_epoch=3_acc=95.3.json",
-    "BEST\e5-mistral-7b-instruct\submission_val_e5-mistral-7b-instruct_epoch=0_acc=87.02.json",
 ]
 
 DEV_SUBMISSIONS_PATHS = [
-    # "BEST/e5-large-v2/submission_dev_checkpoint_e5-large-v2_epoch=5_acc=91.61_epoch=0_acc=91.61.json",
-    # "BEST/multilingual-e5-large-instruct/submission_dev_checkpoint_multilingual-e5-large-instruct_epoch=5_acc=92.09_epoch=0_acc=92.09.json",
+    "BEST/e5-large-v2/submission_dev_checkpoint_e5-large-v2_epoch=5_acc=91.61_epoch=0_acc=91.61.json",
+    "BEST/multilingual-e5-large-instruct/submission_dev_checkpoint_multilingual-e5-large-instruct_epoch=5_acc=92.09_epoch=0_acc=92.09.json",
     "BEST/e5-large-v2_hard/submission_dev_e5-large-v2_epoch=3_acc=95.66.json",
     "BEST/multilingual-e5-large-instruct_hard/submission_dev_multilingual-e5-large-instruct_epoch=3_acc=95.3.json",
-    "BEST\e5-mistral-7b-instruct\submission_dev_e5-mistral-7b-instruct_epoch=0_acc=87.02.json",
 ]
 
 DEV_SAVE_PATH = "submissions_final/submission_dev_majority_vote"
 os.makedirs(DEV_SAVE_PATH, exist_ok=True)
 
 TEST_SUBMISSIONS_PATHS = [
-    # "BEST/e5-large-v2/submission_test_checkpoint_e5-large-v2_epoch=5_acc=91.61_epoch=5.json",
-    # "BEST/multilingual-e5-large-instruct/submission_test_checkpoint_multilingual-e5-large-instruct_epoch=5_acc=92.09_epoch=5.json",
+    "BEST/e5-large-v2/submission_test_checkpoint_e5-large-v2_epoch=5_acc=91.61_epoch=5.json",
+    "BEST/multilingual-e5-large-instruct/submission_test_checkpoint_multilingual-e5-large-instruct_epoch=5_acc=92.09_epoch=5.json",
     "BEST/e5-large-v2_hard/submission_test_e5-large-v2_epoch=3.json",
     "BEST/multilingual-e5-large-instruct_hard/submission_test_multilingual-e5-large-instruct_epoch=3.json",
-    "BEST\e5-mistral-7b-instruct\submission_test_e5-mistral-7b-instruct_epoch=0.json",
 ]
 
 TEST_SAVE_PATH = "submissions_final/submission_test_majority_vote"
