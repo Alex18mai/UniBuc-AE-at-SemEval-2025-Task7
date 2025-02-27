@@ -33,7 +33,7 @@ The final submission was generated combining multiple models using a Weighted Ma
 
 ```
 @inproceedings{semeval2025task7_UniBucAE,
-    title={UniBuc-AE at SemEval-2025 Task 7 : Training Text Embedding Models for Multilingual and Crosslingual Fact-Checked Claim Retrieval},
+    title={UniBuc-AE at SemEval-2025 Task 7: Training Text Embedding Models for Multilingual and Crosslingual Fact-Checked Claim Retrieval},
     author={Enache, Alexandru},
     booktitle = {Proceedings of the 19th International Workshop on Semantic Evaluation},
     series = {SemEval 2025},
